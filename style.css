@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p { 
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+#header {
+    text-align: center;
+    background-color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+
+.profile-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin: 20px;
+}
+
+.profile-picture {
+    border: 2px solid white;
+}
+
+.profile-text {
+    border: 2px solid white;
+    border-radius:5px;
+    padding: 20px;
+}
+
+.container {
+    clear: left;
+    border: 2px solid white;
+    border-radius:5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.event-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.upcoming-events li {
+    list-style-type: none;
+}
+
+.upcoming-events li:first-child {
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.button1-container {
+    text-align:center;
+}
+
+.button1 {
+    padding: 20px;
+    border-radius:5px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.button1-container button:hover {
+    background-color: red;
+    color: white;
+}
+
+.article-title {
+    color: red;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+form {
+    margin: 20px 20px 50px 20px;
+}
